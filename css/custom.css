@@ -79,6 +79,11 @@ hr {
 nav.navbar.navbar-default.navbar-fixed-top {
     font-family: 'Great Vibes', cursive;
     font-weight: bold;
+	background-color: transparent;
+}
+
+.white-background-color {
+	background-color: white !important;
 }
 
 .collapse.navbar-collapse.navbar-ex1-collapse {
@@ -105,7 +110,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
 }
 
 ul.nav.navbar-nav {
-	font-family: 'Handlee', cursive;
+	/* font-family: 'Handlee', cursive; */
 }
 
 .modal-dialog {
@@ -120,17 +125,37 @@ ul.nav.navbar-nav {
 }
 
 .wrapper {
+	font-family: 'Handlee', cursive;
 	width: 70%;
     margin: 0 auto;
 }
 
-.owl-carousel .owl-item.big div {
-	background:#ac0000 !important;
+
+#owl-demo .item{
+  background: #3fbf79;
+  padding: 30px 0px;
+  margin: 10px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+.customNavigation{
+  text-align: center;
+}
+/* use styles below to disable ugly selection */
+.customNavigation a{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.owl-carousel .owl-item.medium div {
-	background:#dd0000 !important;
-}
+
+
 
 
 /* Media */
