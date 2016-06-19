@@ -58,6 +58,14 @@ hr {
     transition: transform 1s;
 }
 
+.backRotation {
+	transform: rotate(-35deg);
+}
+
+.frontRotation {
+	transform: rotate(30deg);
+}
+
 .fancy-icon:hover {
 	/* height: 150px; */
 	transform: rotate(180deg);
