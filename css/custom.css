@@ -1,5 +1,6 @@
 body {
 	background-color: #C792C1;
+	font-family: 'Handlee', cursive;
 }
 
 hr {
@@ -103,13 +104,17 @@ nav.navbar.navbar-default.navbar-fixed-top {
     color: initial;
 }
 
+ul.nav.navbar-nav {
+	font-family: 'Handlee', cursive;
+}
+
 .modal-dialog {
 	width:600px;
 	margin-top: 5px;
 }
 	
 .thumbnail {
-	margin-top:25+++px !important;
+	margin-top:25px !important;
 	margin: 0 auto;
 	max-height: 550px;
 }
@@ -117,6 +122,14 @@ nav.navbar.navbar-default.navbar-fixed-top {
 .wrapper {
 	width: 70%;
     margin: 0 auto;
+}
+
+.owl-carousel .owl-item.big div {
+	background:#ac0000 !important;
+}
+
+.owl-carousel .owl-item.medium div {
+	background:#dd0000 !important;
 }
 
 
